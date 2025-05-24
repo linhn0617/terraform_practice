@@ -4,6 +4,8 @@ This project sets up a secure dual-subnet architecture on AWS using Terraform. I
 
 ## Architecture Overview
 
+![Architecture Diagram](./architecture-diagram.png)
+
 - **VPC**: `10.0.0.0/16` with public and private subnets
 - **Bastion Host**: In public subnet, allows SSH from the internet
 - **Private Instance**: In private subnet, no public IP, only accessible via Bastion
